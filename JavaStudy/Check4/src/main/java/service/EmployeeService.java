@@ -35,7 +35,7 @@ public class EmployeeService {
 
 	// 問③ 入力されたIDとPassWordをキーにして、検索するSELECT文
 	/** ・SQL SELECT文 */
-	private static final String SQL_SELECT = "SELECT * FROM Employee_table WHERE id = ? AND password = ?";
+	private static final String SQL_SELECT = "SELECT * FROM employee_table WHERE id = ? AND password = ?";
 
 	EmployeeBean employeeDate = null;
 
