@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 //問４－１ コントローラーを意味するアノテーションを記述
 @Controller
-public class AuthController {
+class AuthController {
 
 	@Autowired
 	private AccountRepository repository;
